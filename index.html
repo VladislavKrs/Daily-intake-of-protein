@@ -1,0 +1,44 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily protein level</title>
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="bgc">
+        <div class="container">
+            <div class="nav d-flex">
+                <div class="head_logo d-flex">
+                    <p class="header_text"><a href="#">Daily protein intake converter</a></p>
+                    <a href="#"><img class="protein_logo" src="./picture/muscle-svgrepo-com.svg" alt="Logo spoon with muscle"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <main>
+        <div class="container bg_color">
+            <div class="top_main">
+                <p class="norm_of_protein d-flex">The norm of protein per day per kg of human weight</p>
+                <img class="kettlebell d-flex" src="./picture/kettlebell_equipment_gym_fitness_icon_224846.svg" alt="kettlebell">
+            </div>
+            <div class="input_main">
+                <h1 class="subtitle d-flex">Enter your weight:</h1>
+                <div class="input_group">
+                    <div class="inside_value d-flex">
+                        <input id="weight" type="text" class="weight_control" aria-label="The value of your weight">
+                        <span class="weight_value d-flex">kg</span>
+                    </div>
+                    <button class="btn d-flex" onclick="resultCount()"> Сalculate</button>
+                </div>
+                <div class="input_result">
+                    <div class="border"></div>
+                    <p class="text_center d-flex">Fill in the field to get the result</p>
+            </div>
+        </div>
+    </main>
+    <script src="./countProteinConsumption.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>

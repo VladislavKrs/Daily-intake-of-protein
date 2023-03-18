@@ -1,0 +1,137 @@
+
+.d-flex {
+    display: flex;
+}
+.container {
+    max-width: 1440px;
+    margin: 0px auto;
+}
+
+.bgc {
+    background-color: blue;
+}
+
+.nav {
+    justify-content: center;
+    padding: 20px 0px;
+}
+
+.head_logo {
+    justify-content: center;
+}
+
+.header_text {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 36px;
+    font-weight: 600;
+    font-style: normal;
+    margin-right: 50px;
+    align-self: center;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    text-decoration: underline;
+    color:white;
+}
+
+.bg_color {
+    background: rgb(207, 196, 227);
+    padding: 0px 300px 100px;
+}
+
+.top_main {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.norm_of_protein {
+    justify-content: center;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 28px;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 16px;
+}
+
+.kettlebell {
+    justify-content: center;
+    margin: 0px auto;
+}
+
+.input_main {
+    border-width: 1px;
+    border-style: solid;
+    border-color: white;
+    border-image: initial;
+    padding: 20px 14px 70px;
+}
+
+.subtitle {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.inside_value {
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.weight_value {
+    align-self: center;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+.btn {
+    justify-content: center;
+    background-color: blue;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    margin: 0px auto;
+    padding: 5px;
+    border-radius: 8px;
+    border-width: initial;
+    border-style: initial;
+    border-color: gainsboro;
+    border-image: initial;
+}
+
+.border{
+    border: 1px solid white;
+    margin: 10px 0;
+}
+
+.text_center{
+    justify-content: center;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    padding-top: 70px;
+}
+
+.position_text {
+    margin-top: 10px;
+    
+}
+
+.position {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16px;
+}
